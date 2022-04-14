@@ -25,7 +25,7 @@ def parsing_file2(nama_tempat,var1,var2,var3,var4):
         nama_tempat[count] = ""
         i = 0
         while i<len(line):
-            if line[i] !=";":
+            if line[i] !=",":
                 nama_tempat[count]+=line[i]
                 i+=1
             else:
@@ -33,7 +33,7 @@ def parsing_file2(nama_tempat,var1,var2,var3,var4):
         i+=1
         var1[count] = ""
         while i<len(line):
-            if line[i] !=";":
+            if line[i] !=",":
                 var1[count]+=line[i]
                 i+=1
             else:
@@ -41,7 +41,7 @@ def parsing_file2(nama_tempat,var1,var2,var3,var4):
         i+=1
         var2[count] = ""
         while i<len(line):
-            if line[i] !=";":
+            if line[i] !=",":
                 var2[count]+=line[i]
                 i+=1
             else:
@@ -49,7 +49,7 @@ def parsing_file2(nama_tempat,var1,var2,var3,var4):
         i+=1
         var3[count] = ""
         while i<len(line):
-            if line[i] !=";":
+            if line[i] !=",":
                 var3[count]+=line[i]
                 i+=1
             else:
@@ -58,14 +58,14 @@ def parsing_file2(nama_tempat,var1,var2,var3,var4):
         var4[count] = ""
         if count != (row_data-1):
             while i<(len(line)-1):
-                if line[i] !=";":
+                if line[i] !=",":
                     var4[count]+=line[i]
                     i+=1
                 else:
                     break
         else:
             while i<len(line):
-                if line[i] !=";":
+                if line[i] !=",":
                     var4[count]+=line[i]
                     i+=1
                 else:
