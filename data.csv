@@ -1,14 +1,63 @@
-Nama tempat,kategori tempat,katgori2,Range Budget(1: 0-100.000 2: 100.000-250.000 3: >250.000) ,Deskripsi
-Sendang Geulis,Kegiatan air,Wisata Alam,1,Mata air yang sejuk untuk berendam dan underwater selfie
-Sanyang Heuleut,Kegiatan air,Wisata Alam,1,Danau hijau memesona dikelilingi batu-batu eksotis
+Nama tempat,kategori 1,kategori 2,Range Budget(1: 0-100.000 2: 100.000-250.000 3: >250.000) ,Deskripsi
+Sendang Geulis,Kegiatan Air,Wisata Alam,1,Mata air yang sejuk untuk berendam dan underwater selfie
+Sanyang Heuleut,Kegiatan Air,Wisata Alam,1,Danau hijau memesona dikelilingi batu-batu eksotis
 Upside Down World,Museum,Spot Foto,2,Spot foto dengan konsep dunia terbalik
 Amazing Art World,Museum,Spot Foto,2,Spot foto dengan konsep lukisan 3D
 Dusun Bambu,Kuliner,Wisata Alam,1,Wisata alam dan kuliner dengan wahana permainan
 Tebing Citatah,Wisata Alam,Panjat Tebing,1,Tebing yang bagus bagi pelajar panjat tebing dengan spot foto ekstrim yang menarik
-Curug Bubrug,Wisata Alam,Kegiatan air,1,Air terjun tunggal dengan air yang jernih
-Kampung Gajah Wonderland,Kegiatan air, Anak anak,1,Waterboom seru bagi keluarga
+Curug Bubrug,Wisata Alam,Kegiatan Air,1,Air terjun tunggal dengan air yang jernih
+Kampung Gajah Wonderland,Kegiatan Air,Anak Anak,1,Waterboom seru bagi keluarga
 Gunung Manglayang,Wisata Alam,Trekking,1,Gunung yang cocok bagi pendaki pemula dengan pemandangan indah dan relatif sepi
 Lereng Anteng Panoramic Coffee Place,Kuliner,Spot Foto,2,Tempat nongkrong dan ngopi dengan pemandangan yang indah
 Gedung Sate,Museum,Spot Foto,1,Gedung peninggalan kolonial Belanda dan ikon Kota Bandung
 Jalan Braga,Kuliner,Spot Foto,1,Wisata dengan bangunan dulu yang megah dan kuliner yang enak
-Trans Studio Bandung,Anak anak,-,3,Wahana atraksi yang luas sehingga tidak cukup hanya sehari disana
+Trans Studio Bandung,Anak Anak,-,3,Wahana atraksi yang luas sehingga tidak cukup hanya sehari disana
+Babakan siliwangi,Wisata Alam,Spot Foto,1,Ruang terbuka hijau sejak zaman Belanda
+Kawah Putih Ciwidey,Wisata Alam,Spot Foto,1,Kawah Putih memang memiliki pemandangan fotogenik yang terlalu sayang untuk dilewatkan.
+Situ Cileunca,Wisata Alam,-,1,Terdapat danau yang cukup permai dan terdapat jembatan cinta juga di sana.
+Sunrise Point Cukul,Wisata Alam,-,1,Wisata alam yang menyajikan pemandangan matahari terbit yang indah
+Sungai Palayangan,Kegiatan Air,Wisata Alam,2,Sungai dengan berbagai macam outbound seperti arung jeram yang memacu adrenalin
+Pekebunan Teh Malabar,Wisata Alam,Trekking,1,Pemandangan yang indah anda juga bisa memulai trekking ke Gunung Niri dari sini
+Tangkuban Perahu,Wisata Alam,Spot Foto,1,Salah satu tempat yang dianggap sebagai ikon Bandung
+Permandian Air panas ciwidey,Kegiatan Air,-,1,Pemandian air panas di daerah Ciwidey dengan berbagai aktivitas
+Pemandian air panas ciater,Kegiatan Air,-,1,Sumber air panas dengan berbagai fasilitas seperti camping ground dan spa sampai restoran
+Observatorium Bosscha,Museum,-,1,Teropong bintang tertua di Indonesia dengan desain yang unik
+NuArt Sculpture Park,Museum,-,1,NuArt Sculpture Park merupakan galeri seni terbuka karya I Nyoman Nuarta
+Taman Bunga Cihideung,Wisata Alam,-,1,Taman bunga kebanggaan Bandung seluas 50 hektar
+The Lodge Maribaya,Wisata Alam,Anak Anak,2,Tempat rekreasi dengan berbagai macam aktivitas outbound; hot air balloon; zip bike; dan lain lain
+Curug Maribaya,Wisata Alam,Kegiatan Air,1,Air terjun indah yang memiliki ceritanya sendiri
+Taman Begonia,Wisata Alam,Spot Foto,1,Taman dengan begonia berbagai warna yang cocok sebagai spot foto
+Tafso barn,Kuliner,Spot Foto,1,Kafe tematik dengan pemandangan alam fotogenik
+Curug Bellarosa,Wisata Alam,Kegiatan Air,1,Air terjun yang bisa dikunjungi 24 jam yang disertai pemandangan hutan pinusnya yang menarik
+Tebing Keraton,Wisata Alam,Spot Foto,1,Salah satu tempat wisata yang menawarkan keindahan alam luar biasa.
+Curug Malela,Kegiatan Air,Wisata Alam,1,Air terjun ini mengalir dalam 5 jalur; menghasilkan pemandangan yang megah dan memikat.
+Dago Dream Park,Wisata Alam,Spot Foto,1,Dago Dream Park juga menawarkan aneka spot selfie dan wahana permainan yang seru
+Curug Cimahi,Kegiatan Air,Wisata Alam,1,Curug Pelangi kini semakin cantik dengan lampu warna-warni yang terletak di balik aliran air.
+Situ Patenggang,Wisata Alam,Spot Foto,1,Di sini kita bisa piknik sambil memancing di tengah danau
+Kawah rengganis Cibuni,Wisata Alam,-,1,Memiliki kawah belerang yang indah; air di sana juga berkhasiat untuk kulit
+Pemandian Air Panas Cimanggu,Kegiatan Air,Wisata Alam,1,Pemandian air panas alami yang cocok untuk relaksasi
+Glamping Lakeside,Wisata Alam,Spot Foto,1,Spot terbaik di sini adalah Pinisi Resto yang bentuknya mirip perahu raksasa
+Legok Kondang Glamping,Wisata Alam,Perkemahan,3,Tempat kemah dengan konsep eksklusif yang dikelilingi alam hijau asri
+Bukit Jamur,Spot Foto,WisataAlam,1,Bukit dengan pemandangan yang indah dan pohon-pohon berbentuk mirip jamur
+Kebun Tanaman Obat Sari Alam,Wisata Alam,-,1,Tempat ini berfungsi sebagai herborium; dan klinik pengobatan alternatif dengan tanaman herbal.
+Taman kelinci Ciwidey,Anak Anak,-,1,Taman dengan aneka spesies kelinci yang mengajarkan anak anak untuk berinteraksi dengan binatang
+Kebun petik strawberry,Wisata Alam,Anak Anak,1,Kebun memanen stroberi yang cocok untuk anak anak
+museum geologi bandung,Museum,-,1,Tempat yang paling tepat untuk belajar serba-serbi sejarah umat manusia.
+kebun binatang bandung,Anak Anak,-,1,Terdapat banyak binatang lucu yang memikat hati anak-anak
+jendela alam,Anak Anak,-,1,Banyak aktivitas edukatif dan menyenangkan bagi anak-anak di sini.
+pesona nirwana waterpark,Kegiatan Air,Anak Anak,1,Pesona Nirwana mempunyai berbagai wahana air yang seru untuk anak-anak
+saung anklung mang udjo,Wisata Budaya,Anak-Anak,1,Destinasi wisata budaya dan edukasi di mana kita bisa belajar segala hal tentang alat musik angklung.
+taman kupu-kupu cihanjung,Anak Anak,-,1,Di sini anak-anak bisa mempelajari siklus hidup kupu-kupu dan bermain dengan mereka
+taman miniatur kereta api,Anak Anak,-,1,Di sini anak-anak dapat melihat langsung belasan miniatur kereta api yang tengah melakukan perjalanan
+curug tilu leuwi opat,Wisata Alam,Spot Foto,1,air terjun tiga tingkat dengan kedalaman 15 meter
+gua pawon,Trekking,Wisata Budaya,1,Gua alami dan situs purbakala bersejarah yang konon katanya tempat nenek moyang suku sunda
+stone garden geopark,Wisata Alam,Spot Foto,1,Terdapat tebing-tebing kapur berselimut tumbuhan hijau yang indah
+desa wisata kampung pasir angling,Wisata Alam,Wisata Budaya,1,Desa wisata yang terletak di kaki gunung dengan pemandangan alam yang indah dan tempat berbagai lukisan yang kental akan budaya
+rumah hallowen bandung,Spot Foto,-,1,Banyak spot foto horror yang bisa kita dapatkan di sini
+bukit gantole cililin,Wisata Alam,-,1,Tempat ini menjadi objek wisata yang pemandangannya sangat indah.
+kampung jepang kyoto (kyotoku),Spot Foto,-,3,Spot foto dengan fasilitas penyewaan yukata
+villa air natural resort,Spot Foto,-,3,vila berkonsep alami dengan desain arsitektur ala Jepang
+rainbow garden,Spot Foto,,1,taman bunga dengan beraneka warna
+farmhouse susu lembang,Spot Foto,-,2,Konsep mirip set Lord of The Rings dengan penyewaan kostum dan susu segar
+kampoeng tulip,Wisata Alam,Spot Foto,1,Konsep belanda mini dengan deretan bunga tulip yang indah
+kota mini,Spot Foto,-,1,Deretan bangunan bergaya eropa di Floating Market Lembang dengan fasilitas penyewaan pakaian tradisional Eropa
