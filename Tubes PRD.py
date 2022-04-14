@@ -79,7 +79,7 @@ nama_tempat = [0 for i in range(row_data)]
 kategori_tempat = [0 for i in range(row_data)]
 kategori2 = [0 for i in range(row_data)]
 range_budget = [0 for i in range(row_data)]
-deskripsi = [0 for i in range(row_riwayat)]
+deskripsi = [0 for i in range(row_data)]
 parsing_file2(nama_tempat,kategori_tempat,kategori2,range_budget,deskripsi)
 
 print("Selamat datang di aplikasi Traveller. Berapa lama Anda akan menjelajahi Bandung?")
