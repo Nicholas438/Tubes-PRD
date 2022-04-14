@@ -1,4 +1,5 @@
 # Tubes PRD
+file_data = open("data.csv","r")
 def count_row(file):
     # Subprogram untuk menghitung jumlah baris dari file csv
     
