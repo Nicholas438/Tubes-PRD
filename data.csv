@@ -1,28 +1,28 @@
-Nama tempat,kategori 1,kategori 2,Range Budget(1: 0-100.000 2: 100.000-250.000 3: >250.000) ,Deskripsi
-Sendang Geulis,Kegiatan Air,Wisata Alam,1,Mata air yang sejuk untuk berendam dan underwater selfie
-Sanyang Heuleut,Kegiatan Air,Wisata Alam,1,Danau hijau memesona dikelilingi batu-batu eksotis
-Upside Down World,Museum,Spot Foto,2,Spot foto dengan konsep dunia terbalik
-Amazing Art World,Museum,Spot Foto,2,Spot foto dengan konsep lukisan 3D
-Dusun Bambu,Kuliner,Wisata Alam,1,Wisata alam dan kuliner dengan wahana permainan
-Tebing Citatah,Wisata Alam,Panjat Tebing,1,Tebing yang bagus bagi pelajar panjat tebing dengan spot foto ekstrim yang menarik
-Curug Bubrug,Wisata Alam,Kegiatan Air,1,Air terjun tunggal dengan air yang jernih
-Kampung Gajah Wonderland,Kegiatan Air,Anak Anak,1,Waterboom seru bagi keluarga
-Gunung Manglayang,Wisata Alam,Trekking,1,Gunung yang cocok bagi pendaki pemula dengan pemandangan indah dan relatif sepi
-Lereng Anteng Panoramic Coffee Place,Kuliner,Spot Foto,2,Tempat nongkrong dan ngopi dengan pemandangan yang indah
-Gedung Sate,Museum,Spot Foto,1,Gedung peninggalan kolonial Belanda dan ikon Kota Bandung
-Jalan Braga,Kuliner,Spot Foto,1,Wisata dengan bangunan dulu yang megah dan kuliner yang enak
-Trans Studio Bandung,Anak Anak,-,3,Wahana atraksi yang luas sehingga tidak cukup hanya sehari disana
-Babakan siliwangi,Wisata Alam,Spot Foto,1,Ruang terbuka hijau sejak zaman Belanda
-Kawah Putih Ciwidey,Wisata Alam,Spot Foto,1,Kawah Putih memang memiliki pemandangan fotogenik yang terlalu sayang untuk dilewatkan.
-Situ Cileunca,Wisata Alam,-,1,Terdapat danau yang cukup permai dan terdapat jembatan cinta juga di sana.
-Sunrise Point Cukul,Wisata Alam,-,1,Wisata alam yang menyajikan pemandangan matahari terbit yang indah
-Sungai Palayangan,Kegiatan Air,Wisata Alam,2,Sungai dengan berbagai macam outbound seperti arung jeram yang memacu adrenalin
-Pekebunan Teh Malabar,Wisata Alam,Trekking,1,Pemandangan yang indah anda juga bisa memulai trekking ke Gunung Niri dari sini
-Tangkuban Perahu,Wisata Alam,Spot Foto,1,Salah satu tempat yang dianggap sebagai ikon Bandung
-Permandian Air panas ciwidey,Kegiatan Air,-,1,Pemandian air panas di daerah Ciwidey dengan berbagai aktivitas
-Pemandian air panas ciater,Kegiatan Air,-,1,Sumber air panas dengan berbagai fasilitas seperti camping ground dan spa sampai restoran
-Observatorium Bosscha,Museum,-,1,Teropong bintang tertua di Indonesia dengan desain yang unik
-NuArt Sculpture Park,Museum,-,1,NuArt Sculpture Park merupakan galeri seni terbuka karya I Nyoman Nuarta
+Nama tempat,kategori 1,kategori 2,Range Budget(1: 0-100.000 2: 100.000-250.000 3: >250.000) ,Deskripsi,Latitude,Longitude
+Sendang Geulis,Kegiatan Air,Wisata Alam,1,Mata air yang sejuk untuk berendam dan underwater selfie,-6.749665, 107.478669
+Sanyang Heuleut,Kegiatan Air,Wisata Alam,1,Danau hijau memesona dikelilingi batu-batu eksotis,-6.876694, 107.342175
+Upside Down World,Museum,Spot Foto,2,Spot foto dengan konsep dunia terbalik,-6.896408, 107.617144
+Amazing Art World,Museum,Spot Foto,2,Spot foto dengan konsep lukisan 3D,-6.851719, 107.595681
+Dusun Bambu,Kuliner,Wisata Alam,1,Wisata alam dan kuliner dengan wahana permainan,-6.789741, 107.579183
+Tebing Citatah,Wisata Alam,Panjat Tebing,1,Tebing yang bagus bagi pelajar panjat tebing dengan spot foto ekstrim yang menarik,-6.834221, 107.453307
+Curug Bubrug,Wisata Alam,Kegiatan Air,1,Air terjun tunggal dengan air yang jernih,-6.792189, 107.580139
+Kampung Gajah Wonderland,Kegiatan Air,Anak Anak,1,Waterboom seru bagi keluarga,-6.829385, 107.595616
+Gunung Manglayang,Wisata Alam,Trekking,1,Gunung yang cocok bagi pendaki pemula dengan pemandangan indah dan relatif sepi,-6.876089, 107.743229
+Lereng Anteng Panoramic Coffee Place,Kuliner,Spot Foto,2,Tempat nongkrong dan ngopi dengan pemandangan yang indah,-6.842590, 107.622585
+Gedung Sate,Museum,Spot Foto,1,Gedung peninggalan kolonial Belanda dan ikon Kota Bandung,-6.902168, 107.618756
+Jalan Braga,Kuliner,Spot Foto,1,Wisata dengan bangunan dulu yang megah dan kuliner yang enak,-6.917515, 107.609329
+Trans Studio Bandung,Anak Anak,-,3,Wahana atraksi yang luas sehingga tidak cukup hanya sehari disana,-6.925189, 107.636247
+Babakan siliwangi,Wisata Alam,Spot Foto,1,Ruang terbuka hijau sejak zaman Belanda,-6.885432, 107.611260
+Kawah Putih Ciwidey,Wisata Alam,Spot Foto,1,Kawah Putih memang memiliki pemandangan fotogenik yang terlalu sayang untuk dilewatkan.,-7.166233, 107.402128
+Situ Cileunca,Wisata Alam,-,1,Terdapat danau yang cukup permai dan terdapat jembatan cinta juga di sana.,-7.193509, 107.550128
+Sunrise Point Cukul,Wisata Alam,-,1,Wisata alam yang menyajikan pemandangan matahari terbit yang indah,-7.233747, 107.534283
+Sungai Palayangan,Kegiatan Air,Wisata Alam,2,Sungai dengan berbagai macam outbound seperti arung jeram yang memacu adrenalin,-7.196581, 107.545460
+Pekebunan Teh Malabar,Wisata Alam,Trekking,1,Pemandangan yang indah anda juga bisa memulai trekking ke Gunung Niri dari sini,-7.227652, 107.605167
+Tangkuban Perahu,Wisata Alam,Spot Foto,1,Salah satu tempat yang dianggap sebagai ikon Bandung,-6.759915, 107.609798
+Permandian Air panas ciwidey,Kegiatan Air,-,1,Pemandian air panas di daerah Ciwidey dengan berbagai aktivitas,-7.144228, 107.384864
+Pemandian air panas ciater,Kegiatan Air,-,1,Sumber air panas dengan berbagai fasilitas seperti camping ground dan spa sampai restoran,-6.738879, 107.653320
+Observatorium Bosscha,Museum,-,1,Teropong bintang tertua di Indonesia dengan desain yang unik,-6.824763, 107.617209
+NuArt Sculpture Park,Museum,-,1,NuArt Sculpture Park merupakan galeri seni terbuka karya I Nyoman Nuarta,-6.877824, 107.572079
 Taman Bunga Cihideung,Wisata Alam,-,1,Taman bunga kebanggaan Bandung seluas 50 hektar
 The Lodge Maribaya,Wisata Alam,Anak Anak,2,Tempat rekreasi dengan berbagai macam aktivitas outbound; hot air balloon; zip bike; dan lain lain
 Curug Maribaya,Wisata Alam,Kegiatan Air,1,Air terjun indah yang memiliki ceritanya sendiri
