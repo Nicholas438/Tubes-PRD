@@ -1,8 +1,10 @@
-
+from cProfile import label
 from tkinter import *
 import pandas as pd
 from tkinter import ttk
 from tkinter import filedialog
+import geopy 
+
 
 # DEKLARASI FUNGSI
 data = pd.read_csv("data.csv")
@@ -57,7 +59,14 @@ def generate():
     for row in df_rows:
         my_tree.insert("", "end", values=row)
     my_tree.pack()
-    
+
+def distance():
+    koor1=e1.get()
+    koor2=e2.get()
+    hasil= str(geopy.distance.geodesic(koor1,koor2).km)
+    myLabel = Label(root, text=hasil)
+    myLabel.pack()
+
     
 # Membuat ui utama
 root=Tk()
@@ -78,10 +87,20 @@ myframe3.grid(row=2, column=0)
 myframe4= LabelFrame(root,text="Lihat Hasil",bg="Wheat1")
 myframe4.grid(row=3, column=0)
 
+myframe5= LabelFrame(root,text="Distance",bg="Wheat1")
+myframe5.grid(row=4, column=0)
+
 my_tree=ttk.Treeview(myframe)
 
 
 # Membuat Button kontrol
+e1=Entry(myframe5, width=50, borderwidth= 5)
+e1.grid(row=5,column=0, padx=10)
+e2=Entry(myframe5, width=50, borderwidth= 5)
+e2.grid(row=6,column=0, padx=10)
+sub = Button(myframe5, text="Submit", command = distance, borderwidth= 5)
+sub.grid(row=7, column=0, padx=10)
+
 budget1_ = Button(myframe2, text="Rp 0-Rp 100.000", command = budget1, borderwidth= 5)
 budget1_.grid(row = 1, column=0, padx=10)
 budget2 = Button(myframe2, text="Rp 100.000-Rp 250.000", command = budget2 , borderwidth = 5)
