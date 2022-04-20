@@ -61,9 +61,14 @@ def generate():
     my_tree.pack()
 
 def distance():
-    koor1=e1.get()
-    koor2=e2.get()
-    hasil= str(geopy.distance.geodesic(koor1,koor2).km)
+    koor1_1=e1.get()
+    koor1_2=e2.get()
+    koordinat1 = (koor1_1,koor1_2)
+    # Koreksi: Tolong untuk tiap baris ambil longitude latitude terus bikin kolom baru di data
+    Latitude = data.loc["Latitude"]
+    Longitude = data.loc["Longitude"]
+    koordinat2 = (Latitude,Longitude)
+    hasil= str(geopy.distance.geodesic(koordinat1,koordinat2).km)
     myLabel = Label(root, text=hasil)
     myLabel.pack()
 
@@ -87,7 +92,7 @@ myframe3.grid(row=2, column=0)
 myframe4= LabelFrame(root,text="Lihat Hasil",bg="Wheat1")
 myframe4.grid(row=3, column=0)
 
-myframe5= LabelFrame(root,text="Distance",bg="Wheat1")
+myframe5= LabelFrame(root,text="Latitude dan Longitude",bg="Wheat1")
 myframe5.grid(row=4, column=0)
 
 my_tree=ttk.Treeview(myframe)
