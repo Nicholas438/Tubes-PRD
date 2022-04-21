@@ -4,6 +4,7 @@ import pandas as pd
 from tkinter import ttk
 from tkinter import filedialog
 import geopy 
+from geopy.distance import geodesic
 
 
 # DEKLARASI FUNGSI
@@ -48,14 +49,16 @@ def i():
     kegiatan="Wisata budaya"
 
 def generate():
-    df=data.loc[((data['kategori 1']== kegiatan)|(data['kategori 2']== kegiatan)) & (data['Range Budget(1: 0-100.000 2: 100.000-250.000 3: >250.000) ']== budget)]
+    global df
+    df=data.loc[((data['kategori 1']== kegiatan)|(data['kategori 2']== kegiatan)) & (data['Range Budget(1: 0-100.000 2: 100.000-250.000 3: >250.000)']== budget)]
     print(df)
-    my_tree["column"]=list(df.columns)
+    y1=df[['Nama tempat','Range Budget(1: 0-100.000 2: 100.000-250.000 3: >250.000)','Waktu Disarankan(Jam)','Deskripsi']]
+    my_tree["column"]=list(y1.columns)
     my_tree["show"]="headings"
 
     for column in my_tree["column"]:
         my_tree.heading(column, text=column)
-    df_rows = df.to_numpy().tolist()
+    df_rows = y1.to_numpy().tolist()
     for row in df_rows:
         my_tree.insert("", "end", values=row)
     my_tree.pack()
@@ -65,18 +68,34 @@ def distance():
     koor1_2=e2.get()
     koordinat1 = (koor1_1,koor1_2)
     # Koreksi: Tolong untuk tiap baris ambil longitude latitude terus bikin kolom baru di data
-    Latitude = data.loc["Latitude"]
-    Longitude = data.loc["Longitude"]
-    koordinat2 = (Latitude,Longitude)
-    hasil= str(geopy.distance.geodesic(koordinat1,koordinat2).km)
-    myLabel = Label(root, text=hasil)
-    myLabel.pack()
+    x=len(df)
+    La=df["Latitude"].values.tolist()
+    Lo=df["Longitude"].values.tolist()
+    jarak=[]
+    for i in range (x):
+        Latitude = La[i]
+        Longitude = Lo[i]
+        koordinat2 = (Latitude,Longitude)
+        hasil= str(geodesic(koordinat1,koordinat2).km)
+        jarak.append(hasil)
+    df['Jarak'] = jarak
+    print(jarak)
+    print(df)
+    y1=df[['Nama tempat','Range Budget(1: 0-100.000 2: 100.000-250.000 3: >250.000)','Waktu Disarankan(Jam)','Deskripsi','Jarak']]
+    my_tree["column"]=list(y1.columns)
+    my_tree["show"]="headings"
+    for column in my_tree["column"]:
+        my_tree.heading(column, text=column)
+    df_rows = y1.to_numpy().tolist()
+    for row in df_rows:
+        my_tree.insert("", "end", values=row)
+    my_tree.pack()
 
     
 # Membuat ui utama
 root=Tk()
 root.title("Tour Guide STEI ITB")
-root.geometry('1000x400')
+root.geometry('10000x1000')
 
 
 # Membuat frame kontrol
