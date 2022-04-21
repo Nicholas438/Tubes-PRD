@@ -67,7 +67,6 @@ def distance():
     koor1_1=e1.get()
     koor1_2=e2.get()
     koordinat1 = (koor1_1,koor1_2)
-    # Koreksi: Tolong untuk tiap baris ambil longitude latitude terus bikin kolom baru di data
     x=len(df)
     La=df["Latitude"].values.tolist()
     Lo=df["Longitude"].values.tolist()
